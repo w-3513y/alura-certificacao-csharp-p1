@@ -20,9 +20,6 @@ namespace certificacao_csharp_roteiro.Aula_2___tipos_de_referencia._2___Classes
             System.Console.WriteLine(posicao.IsNorthhemisphere());
             System.Console.WriteLine(posicao1.ToString());
             System.Console.WriteLine(posicao2.ToString());
-
-
-
         }
 
         internal class GlobalPositions : IGPS

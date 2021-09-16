@@ -10,6 +10,8 @@ namespace certificacao_csharp_roteiro.Aula_3___metodos._4___Propriedades_Indexad
             sala["D01"] = new ClienteCinema("Maria de Sousa");
             sala["D02"] = new ClienteCinema("José da Silva");
             sala.ImprimirReservas();
+            sala.ImprimirReserva("D01");
+            sala.ImprimirAssento("José da Silva");
         }
     }
 
@@ -54,5 +56,27 @@ namespace certificacao_csharp_roteiro.Aula_3___metodos._4___Propriedades_Indexad
                 System.Console.WriteLine($"{reserva.Key} - {reserva.Value}");
             }
         }
+
+        public void ImprimirReserva(string assento)
+        {
+            foreach(var reserva in reservas)
+            {
+                if (reserva.Key == assento)
+                {
+                    System.Console.WriteLine($"assento {reserva.Key} ocupado por {reserva.Value}");
+                }
+            }
+        }
+        public void ImprimirAssento(string nomeCliente)
+        {
+            foreach (var reserva in reservas)
+            {
+                if (reserva.Value.Nome == nomeCliente)
+                {
+                    System.Console.WriteLine($"cliente {reserva.Value} reservou o assento: {reserva.Key}");
+                }
+            }
+        }      
+
     }
 }
