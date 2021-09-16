@@ -1,0 +1,1 @@
+Os tipos que você define usando a palavra-chave struct são tipos de valor; todos os tipos numéricos internos são structs . Os tipos que você define usando a palavra-chave class record são tipos de referência
