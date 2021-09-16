@@ -53,20 +53,13 @@ namespace certificacao_csharp_roteiro.Aula_3___metodos._4___Propriedades_Indexad
             System.Console.WriteLine("===================");
             foreach (var reserva in reservas)
             {
-                System.Console.WriteLine($"{reserva.Key} - {reserva.Value}");                
+                System.Console.WriteLine($"{reserva.Key} - {reserva.Value}");
             }
         }
 
         public void ImprimirReserva(string assento)
         {
-            foreach(var reserva in reservas)
-            {
-                if (reserva.Key == assento)
-                {
-                    System.Console.WriteLine($"assento {reserva.Key} ocupado por {reserva.Value}");
-                    break;
-                }
-            }
+            System.Console.WriteLine($"assento {assento} ocupado por {this[assento].Nome}");
         }
         public void ImprimirAssento(string nomeCliente)
         {
@@ -78,7 +71,7 @@ namespace certificacao_csharp_roteiro.Aula_3___metodos._4___Propriedades_Indexad
                     break;
                 }
             }
-        }      
+        }
 
     }
 }
