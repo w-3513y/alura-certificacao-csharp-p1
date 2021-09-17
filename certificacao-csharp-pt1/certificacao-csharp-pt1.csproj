@@ -68,6 +68,16 @@
     <Compile Include="Aula 3 - metodos\4 - Propriedades Indexadas\PropriedadesIndexadas.cs" />
     <Compile Include="Aula 4 - sobrecargas\1 - Metodos Sobrecarregados\Sobrecargas.cs" />
     <Compile Include="Aula 4 - sobrecargas\2 - Metodos Substituidos\MetodosSubstituidos.cs" />
+    <Compile Include="Aula 5 - box\1 - Boxing\Boxing.cs" />
+    <Compile Include="Aula 5 - box\1 - Boxing\Unboxing.cs" />
+    <Compile Include="Aula 6 - Cast\1 - Conversoes\ConversoesExplicitas.cs" />
+    <Compile Include="Aula 6 - Cast\1 - Conversoes\ConversoesImplicitas.cs" />
+    <Compile Include="Aula 6 - Cast\2 - Operadores\IsAndAs.cs" />
+    <Compile Include="Aula 6 - Cast\3 - Conversoes definidas\ConversoesUsandoOperadores.cs" />
+    <Compile Include="Aula 6 - Cast\4 - Metodos Auxiliares de Conversao\MetodosAuxiliares.cs" />
+    <Compile Include="Aula 7 - Tipos Dinamicos\1 - Usando Dynamics\UsandoDynamic.cs" />
+    <Compile Include="Aula 7 - Tipos Dinamicos\2 - Convertendo Dynamics\ConvertendoDynamic.cs" />
+    <Compile Include="Aula 7 - Tipos Dinamicos\3 - Resolucao de Sobrecarga\ResolucaoSobrecarga.cs" />
     <Compile Include="IAulaItem.cs" />
     <Compile Include="Objetcs.cs" />
     <Compile Include="Program.cs" />
